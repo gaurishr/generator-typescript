@@ -1,0 +1,23 @@
+{
+  "@vamship/generator-typescript": {
+    "_projectType": "api",
+    "projectNamespace": "",
+    "projectName": "dhc-support-ui",
+    "projectVersion": "0.0.1",
+    "projectDescription": "Customer Support - Patient Validation Dashboard",
+    "projectKeywords": [
+      "support",
+      "patient",
+      "validation",
+      "dashboard"
+    ],
+    "authorName": "Digital Healthcare Cloud",
+    "authorEmail": "Digital Healthcare Cloud <dhc_cloud@analog.com>",
+    "gitUsername": "",
+    "gitUrl": "https://adi-digitalhealthcare@dev.azure.com/adi-digitalhealthcare/Medical%20Products%20Software/_git/dhc-support-ui",
+    "gitDocumentationUrl": "https://adi-digitalhealthcare@dev.azure.com/adi-digitalhealthcare/Medical%20Products%20Software/_git/dhc-support-ui",
+    "dockerRequired": true,
+    "dockerFullRepo": "dhc-support-ui",
+    "dockerRepoHome": "https://adi-digitalhealthcare@dev.azure.com/adi-digitalhealthcare/Medical%20Products%20Software/_git/dhc-support-ui"
+  }
+}
