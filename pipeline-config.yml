@@ -1,0 +1,19 @@
+# --------------------------------------
+# Import pipeline config from template :
+# Repository  : dhc-ops-pipelines
+# File        : dhc-pipeline-config.yml
+# --------------------------------------
+# Additional info can be found at below link
+# https://dev.azure.com/adi-digitalhealthcare/Medical%20Products%20Software/_git/dhc-ops-pipelines?path=/README.md&_a=preview
+# --------------------------------------
+
+resources:
+  repositories:
+    - repository: templates
+      type: git
+      name: dhc-ops-pipelines
+
+extends:
+  template: dhc-pipeline-config.yml@templates
+  parameters:
+    project_type: ui
